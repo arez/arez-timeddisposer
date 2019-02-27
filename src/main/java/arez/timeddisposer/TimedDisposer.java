@@ -26,14 +26,12 @@ public final class TimedDisposer
    * @return the new timed disposer.
    */
   @Nonnull
-  public static TimedDisposer create( @Nonnull final Disposable target,
-                                      final long timeout )
+  public static TimedDisposer create( @Nonnull final Disposable target, final long timeout )
   {
     return new TimedDisposer( target, timeout );
   }
 
-  private TimedDisposer( @Nonnull final Disposable target,
-                         final long timeout )
+  private TimedDisposer( @Nonnull final Disposable target, final long timeout )
   {
     if ( Arez.shouldCheckApiInvariants() )
     {
