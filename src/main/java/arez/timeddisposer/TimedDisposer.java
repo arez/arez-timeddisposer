@@ -36,7 +36,7 @@ public final class TimedDisposer
     if ( Arez.shouldCheckApiInvariants() )
     {
       apiInvariant( () -> timeout >= 0,
-                    () -> "Arez-0164: TimedDisposer passed an invalid timeout. Expected positive number " +
+                    () -> "TimedDisposer passed an invalid timeout. Expected positive number " +
                           "but actual value: " + timeout );
     }
     _target = Objects.requireNonNull( target );

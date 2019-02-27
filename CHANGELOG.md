@@ -6,6 +6,8 @@
 * Upgrade the `org.realityforge.braincheck` artifact to version `1.13.0`.
 * Update the 'org.realityforge.arez' dependencies to version '0.132'
 * Remove the `org.realityforge.braincheck` dependency and replace with arez invariants.
+* Remove the `Arez-####: ` prefixes from invariant messages as the project is no longer
+  included within the Arez project and thus these error numbers have been re-assigned.
 
 ### [v0.56](https://github.com/arez/arez-timeddisposer/tree/v0.56) (2019-02-24)
 [Full Changelog](https://github.com/arez/arez-timeddisposer/compare/v0.55...v0.56)
