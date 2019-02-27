@@ -5,7 +5,7 @@ import arez.Disposable;
 import elemental2.dom.DomGlobal;
 import java.util.Objects;
 import javax.annotation.Nonnull;
-import static org.realityforge.braincheck.Guards.*;
+import static arez.Guards.*;
 
 /**
  * Utility class that will dispose specified target after a delay.
