@@ -1,3 +1,7 @@
+# Deprecated
+
+<p align="center">This project has been deprecated. In modern versions of Arez it is trivial to reimplement if required.</p>
+
 # Arez-TimedDisposer
 
 [![Build Status](https://secure.travis-ci.org/arez/arez-timeddisposer.svg?branch=master)](http://travis-ci.org/arez/arez-timeddisposer)
