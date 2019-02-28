@@ -1,6 +1,7 @@
 # Change Log
 
-### Unreleased
+### [v0.57](https://github.com/arez/arez-timeddisposer/tree/v0.57) (2019-02-28)
+[Full Changelog](https://github.com/arez/arez-timeddisposer/compare/v0.56...v0.57)
 
 * Upgrade the `org.realityforge.com.google.elemental2` artifacts to version `1.0.0-b19-fb227e3`.
 * Upgrade the `org.realityforge.braincheck` artifact to version `1.13.0`.
